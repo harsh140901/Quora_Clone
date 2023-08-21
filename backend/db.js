@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const url = "mongodb+srv://sujitpatil276:sujitpatil276@cluster0.pml365n.mongodb.net/?retryWrites=true&w=majority";
+const url = <Add Your mongodb URL>;
 
 module.exports.connect = () => {
     mongoose.connect(url, {
